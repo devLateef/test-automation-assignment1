@@ -55,9 +55,9 @@ public class RegistrationPage extends PageBase {
 //    public void enterSubject(){
 //        enterText(subjectField, "Subject is subject");
 //    }
-    public void checkHubbyBtn(){
-        click(hobbyBtn);
-    }
+//    public void checkHubbyBtn(){
+//        click(hobbyBtn);
+//    }
     public void enterAddressField(){
         enterText(addressField, "Address is always an address");
     }

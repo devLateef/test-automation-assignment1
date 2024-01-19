@@ -21,7 +21,7 @@ public class NavigationPage extends PageBase {
     WebElement practiceBtn;
     @FindBy(xpath = "(//div[@class='header-wrapper'])[3]")
     WebElement alertBtn;
-    @FindBy(id = "item-0")
+    @FindBy(xpath = "(//span[@class='text'])[11]")
     WebElement browserWindowsBtn;
     @FindBy(id = "tabButton")
     WebElement newTabBtn;

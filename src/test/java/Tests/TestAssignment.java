@@ -6,6 +6,9 @@ import Pages.NavigationPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
+import java.util.Iterator;
+import java.util.Set;
+
 public class TestAssignment extends TestBase {
     RegistrationPage registrationPage;
     NavigationPage navigationPage;
@@ -19,11 +22,8 @@ public class TestAssignment extends TestBase {
         jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("window.scrollBy(0, 400)");
         navigationPage.clickAlertFrameBtn();
-        sleep(10);
         navigationPage.clickFormBtn();
-        sleep(10);
         navigationPage.clickPracticeBtn();
-        sleep(5);
         registrationPage.enterFirstName();
         registrationPage.enterLastName();
         registrationPage.enterEmail();
@@ -33,10 +33,24 @@ public class TestAssignment extends TestBase {
         registrationPage.clickDob();
 //        registrationPage.enterSubject();
         jsExecutor.executeScript("window.scrollBy(0, 200)");
-        registrationPage.checkHubbyBtn();
+//        registrationPage.checkHubbyBtn();
         registrationPage.enterAddressField();
         navigationPage.clickAlertBtn();
         navigationPage.clickBrowserWindowsBtn();
+        navigationPage.clickNewTabBtn();
+        sleep(10);
+        current = driver.getWindowHandle();
+        Set<String> allTabs = driver.getWindowHandles();
+        Iterator<String> iterator = allTabs.iterator();
+        while(iterator.hasNext()) {
+            String child = iterator.next();
+            if(!current.equals(child)) {
+                driver.switchTo().window(child);
+            }
+        }
+        sleep(5);
+        driver.close();
+        driver.switchTo().window(current);
         sleep(10);
     }
 }
