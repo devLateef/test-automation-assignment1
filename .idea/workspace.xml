@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0923a2c7-7a43-4171-9051-7e14d40eff8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/NavigationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/NavigationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestAssignment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestAssignment.executor": "Run",
     "TestNG.TestAssignment.validateAllInputFieldsAreFilled.executor": "Debug",
-    "git-widget-placeholder": "assignment1",
+    "git-widget-placeholder": "assignment__1",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

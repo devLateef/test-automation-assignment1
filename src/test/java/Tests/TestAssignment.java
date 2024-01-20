@@ -38,7 +38,7 @@ public class TestAssignment extends TestBase {
         navigationPage.clickAlertBtn();
         navigationPage.clickBrowserWindowsBtn();
         navigationPage.clickNewTabBtn();
-        sleep(10);
+        sleep(5);
         current = driver.getWindowHandle();
         Set<String> allTabs = driver.getWindowHandles();
         Iterator<String> iterator = allTabs.iterator();
@@ -51,6 +51,6 @@ public class TestAssignment extends TestBase {
         sleep(5);
         driver.close();
         driver.switchTo().window(current);
-        sleep(10);
+        sleep(5);
     }
 }
