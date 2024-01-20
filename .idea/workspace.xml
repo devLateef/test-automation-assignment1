@@ -20,6 +20,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "devLateef"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1d85b9d1-8547-4037-914e-0a4f2876d92e" />
+        <option name="url" value="https://github.com/devLateef/test-automation-assignment1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestAssignment.executor": "Run",
     "TestNG.TestAssignment.validateAllInputFieldsAreFilled.executor": "Debug",
-    "git-widget-placeholder": "Rebasing assignment__1",
+    "git-widget-placeholder": "Rebasing refactor",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
