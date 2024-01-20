@@ -17,7 +17,7 @@ public class NavigationPage extends PageBase {
     WebElement alertFrameBtn;
     @FindBy(xpath = "(//div[@class='header-wrapper'])[2]")
     WebElement formBtn;
-    @FindBy(xpath = "//div[@class='element-list collapse show']")
+    @FindBy(xpath = "//div[@class='element-list collapse show']/*/*")
     WebElement practiceBtn;
     @FindBy(xpath = "(//div[@class='header-wrapper'])[3]")
     WebElement alertBtn;
