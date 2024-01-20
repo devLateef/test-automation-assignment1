@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0923a2c7-7a43-4171-9051-7e14d40eff8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0923a2c7-7a43-4171-9051-7e14d40eff8d" name="Changes" comment="New tab implementation added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestAssignment.executor": "Run",
     "TestNG.TestAssignment.validateAllInputFieldsAreFilled.executor": "Debug",
-    "git-widget-placeholder": "assignment__1",
+    "git-widget-placeholder": "Rebasing assignment__1",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -65,7 +63,29 @@
       <option name="presentableId" value="Default" />
       <updated>1705505591875</updated>
     </task>
+    <task id="LOCAL-00001" summary="New tab implementation added">
+      <option name="closed" value="true" />
+      <created>1705771210796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705771210796</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New tab implementation added">
+      <option name="closed" value="true" />
+      <created>1705771241822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705771241822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactored my code" />
+    <MESSAGE value="New tab implementation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New tab implementation added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
