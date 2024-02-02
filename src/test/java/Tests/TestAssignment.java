@@ -15,7 +15,7 @@ public class TestAssignment extends TestBase {
     String current;
     JavascriptExecutor jsExecutor;
     @Test(priority = 1, description = "validate all input fields are filled in a form")
-    public void validateAllInputFieldsAreFilled(){
+    public void validateAllInputFieldsAreFilled() {
         navigationPage = new NavigationPage(driver);
         registrationPage = new RegistrationPage(driver);
         getUrl(testData.getProperty("baseUrl"));
@@ -28,17 +28,25 @@ public class TestAssignment extends TestBase {
         registrationPage.enterLastName();
         registrationPage.enterEmail();
         registrationPage.checkRadioBtn();
+        sleep(5);
         jsExecutor.executeScript("window.scrollBy(0, 200)");
         registrationPage.enterMobileNum();
         registrationPage.clickDob();
+        sleep(5);
 //        registrationPage.enterSubject();
         jsExecutor.executeScript("window.scrollBy(0, 200)");
 //        registrationPage.checkHubbyBtn();
         registrationPage.enterAddressField();
+    }
+
+    @Test(priority = 2, description = "validate new tab implementation")
+    public void validateWindowNavigation(){
+        navigationPage = new NavigationPage(driver);
+        registrationPage = new RegistrationPage(driver);
         navigationPage.clickAlertBtn();
         navigationPage.clickBrowserWindowsBtn();
         navigationPage.clickNewTabBtn();
-        sleep(10);
+        sleep(5);
         current = driver.getWindowHandle();
         Set<String> allTabs = driver.getWindowHandles();
         Iterator<String> iterator = allTabs.iterator();
@@ -51,6 +59,6 @@ public class TestAssignment extends TestBase {
         sleep(5);
         driver.close();
         driver.switchTo().window(current);
-        sleep(10);
+        sleep(5);
     }
 }
